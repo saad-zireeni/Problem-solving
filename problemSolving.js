@@ -42,3 +42,59 @@
 //     }
 // }
 // console.log(reverse("saad"));
+
+
+
+
+
+
+
+//Data Structures
+//Q1 -
+// const stack = [];
+// const minStack = [];
+
+// function myPush(num){
+//     stack.push(num);
+//     if (minStack.length === 0 || num <= minStack[minStack.length - 1]) {
+//         minStack.push(num);
+//     }
+// }
+// function getMin(){
+//     return minStack[minStack.length - 1];
+// }
+
+// myPush(1);
+// myPush(2);
+// myPush(3);
+// myPush(4);
+// myPush(5);
+// console.log(getMin());
+
+
+
+
+
+
+
+//Q2 -
+// function reverseQueue(queue) {
+//     const stack = [];
+    
+//     while (queue.length > 0) {
+//       stack.push(queue.shift());
+//     }
+  
+//     while (stack.length > 0) {
+//       queue.push(stack.pop());
+//     }
+  
+//     return queue;
+//   }
+  
+//   const queue = [10, 20, 30, 40, 50];
+//   console.log(reverseQueue(queue));
+
+
+//Q3 -
+
